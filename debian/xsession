@@ -1,0 +1,7 @@
+#!/bin/sh
+#
+# A simple x session with a window manager for the
+# account repair wizard
+
+metacity &
+exec /usr/lib/debathena-account-repair/account-repair-wizard

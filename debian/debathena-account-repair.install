@@ -1,0 +1,2 @@
+debian/debathena-account-repair.desktop usr/share/xsessions
+debian/xsession usr/lib/debathena-account-repair
