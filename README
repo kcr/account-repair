@@ -1,0 +1,22 @@
+Configuring the Account Repair Wizard:
+
+The wizard looks for files in the "actions" directory
+(/usr/share/debathena-account-repair/actions) that end in .action.
+These are INI files, similar to .desktop files, with this format:
+  [AccountWizardAction]
+  title=My First Action
+  help=Some descriptive text about the action.  It can
+   span multiple lines if intended by one space.  Line breaks
+   are not honored.
+  confirm=Some optional text to be displayed on the dialog presented
+   to the user before they run the action.
+  script=some-script-name
+
+The script in 'script' must be in the "scripts" directory
+(/usr/lib/debathena-account-repair/scripts) and may be any executable.
+The script should exit with 0 to indicate success or nonzero to indicate
+failure.  Upon exit, the contents of stdout will be displayed to the
+user.  If the script exited non-zero, the contents of stderr will be
+displayed too.
+
+$DISPLAY is not set and graphical applications should not be used.
