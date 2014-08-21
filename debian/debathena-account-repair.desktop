@@ -1,6 +1,6 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Repair My Athena Account
+Name=Athena: Repair My Account
 Comment=This launches a wizard to help you fix common problems in your account.
 Exec=/usr/lib/debathena-account-repair/xsession
 TryExec=/usr/lib/debathena-account-repair/xsession

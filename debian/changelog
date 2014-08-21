@@ -1,3 +1,10 @@
+debathena-account-repair (1.0-0debathena2) unstable; urgency=low
+
+  * Update xsession name to "Athena: Repair My Account" so it appears
+    higher in the list.
+
+ -- Jonathan Reed <jdreed@mit.edu>  Thu, 21 Aug 2014 09:25:53 -0400
+
 debathena-account-repair (1.0-0debathena1) unstable; urgency=low
 
   * Initial release
