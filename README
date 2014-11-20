@@ -16,7 +16,7 @@ The script in 'script' must be in the "scripts" directory
 (/usr/lib/debathena-account-repair/scripts) and may be any executable.
 The script should exit with 0 to indicate success or nonzero to indicate
 failure.  Upon exit, the contents of stdout will be displayed to the
-user.  If the script exited non-zero, the contents of stderr will be
-displayed too.
+user.  If the script exits with a non-zero statys, the contents of stderr
+will be displayed as well.
 
 $DISPLAY is not set and graphical applications should not be used.
